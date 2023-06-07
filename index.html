@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App - Landing Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>SkyWatch Weather</h1>
+      <span class="navlinks">
+        <i class="fas fa-xmark xmarkIcon" onclick="handleRemoveSidebar()"></i>
+        <ul>
+          <a href=""><li>Home</li></a>
+          <a href=""><li>Services</li></a>
+          <a href=""><li>About</li></a>
+          <a href=""><li>Blog</li></a>
+        </ul>
+        <button class="navbutton">Contact</button>
+      </span>
+      <i class="fas fa-bars barIcon" onclick="handleShowSidebar()"></i>
+    </nav>
+    <div class="app-wrap">
+      <header>
+        <h1>Welcome to the Weather App</h1>
+        <p>Get real-time weather information for any city</p>
+      </header>
+      <main>
+        <button class="launch-button" onclick="launchApp()">
+          <span>Launch App</span>
+          <i class="fab fa-android"></i>
+        </button>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

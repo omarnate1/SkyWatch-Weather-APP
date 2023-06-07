@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2bb5d79d;
+  background-image: url("https://images3.alphacoders.com/109/1091500.jpg");
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  max-width: 1440px;
+  margin: auto;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(128, 239, 239, 0.904),
+    rgba(20, 127, 234, 0.812)
+  );
+}
+
+.nav .navlinks {
+  margin-left: auto;
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navlinks li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.navlinks a {
+  color: #d44040;
+}
+.navbutton {
+  background-color: var(--ButtonColor);
+  padding: 8px 25px;
+  border: none;
+  /* font: size 1.2rem; */
+  margin-left: 5%;
+  border-radius: 12px;
+  color: #c41f1f;
+  cursor: pointer;
+}
+
+.nav .fas {
+  display: none;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.launch-button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.launch-button:hover {
+  background-color: #0056b3;
+}
+
+.social-icons {
+  padding: 5px 5px 5px 5px;
+  margin-top: 25px;
+  font-size: large;
+}
