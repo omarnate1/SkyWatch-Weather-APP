@@ -5,6 +5,7 @@ ALX Team Project
 Developers:
 Nathaniel Orobor <omarnate@gmail.com>
 Oluwaseun Adesiyan <richjuve@gmail.com>
+Teslim Okunola <okuntes@gmail.com>
 
 
 Overview
