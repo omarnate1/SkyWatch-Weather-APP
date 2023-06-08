@@ -12,14 +12,16 @@
   </head>
   <body>
     <nav class="nav">
-      <h1>SkyWatch Weather</h1>
+      <h1 style="padding-left: 10px; color: rgb(34, 119, 119)">
+        SkyWatch Weather
+      </h1>
       <span class="navlinks">
         <i class="fas fa-xmark xmarkIcon" onclick="handleRemoveSidebar()"></i>
-        <ul>
-          <a href=""><li>Services</li></a>
-          <a href="About.html"><li>About</li></a>
-          <a href=""><li>Weather News</li></a>
-        </ul>
+
+        <a href="">Services</a>
+        <a href="About.html">About</a>
+        <a href="">Weather News</a>
+
         <a href="contactus.html"><button class="btn">Contact Us</button></a>
       </span>
       <i class="fas fa-bars barIcon" onclick="handleShowSidebar()"></i>
@@ -30,10 +32,22 @@
         <p>Get real-time weather information for any city</p>
       </header>
       <main>
-        <button class="launch-button" onclick="launchApp()">
-          <span>Launch App</span>
-          <i class="fab fa-android"></i>
-        </button>
+        <div class="video">
+          <button class="launch-button" onclick="launchApp()">
+            <span>Launch App</span>
+            <i class="fab fa-android"></i>
+          </button>
+        </div>
+        <div class="video">
+          <iframe
+            style="border-radius: 5px"
+            width="800"
+            height="390"
+            src="https://www.youtube.com/embed/zw9RKRnlvUU"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
         <div class="social-icons">
           <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
           <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
