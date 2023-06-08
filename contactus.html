@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - SkyWatch Weather</title>
+    <link rel="stylesheet" href="contactus.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index.html"><h1>SkyWatch</h1></a>
+    </div>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>
+        We'd love to hear from you! Send us an email at
+        <a href="mailto:skywatchweather@skywatch.com"
+          >skywatchweather@skywatch.com</a
+        >
+        or use the form below:
+      </p>
+
+      <form
+        action="mailto:skywatchweather@skywatch.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send Email" />
+      </form>
+    </div>
+  </body>
+</html>
