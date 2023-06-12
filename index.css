@@ -11,7 +11,7 @@ body {
 }
 
 .nav {
-  color: #0056b3;
+  color: rgb(1 1 1);
   border-radius: 5px;
   position: fixed;
   display: flex;
@@ -21,7 +21,7 @@ body {
   margin: 5px 5px 5px 5px;
   background-image: linear-gradient(
     to bottom,
-    rgba(128, 239, 239, 0.904),
+    rgba(95, 230, 248, 0.904),
     rgba(239, 247, 255, 0.812)
   );
 }

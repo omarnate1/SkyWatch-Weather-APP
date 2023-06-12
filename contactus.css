@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  background-color: #009fde;
+  background-color: #72d3f6;
   color: #fff;
   padding: 10px;
 }
@@ -20,13 +20,13 @@ body {
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #161616;
   border-radius: 4px;
   background-color: #fff;
 }
 
 h1 {
-  color: #009fde;
+  color: #f9f9f9;
   text-align: center;
 }
 
