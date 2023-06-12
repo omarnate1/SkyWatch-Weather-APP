@@ -11,7 +11,7 @@ body {
 }
 
 .nav {
-  color: #0056b3;
+  color: rgb(1 1 1);
   border-radius: 5px;
   position: fixed;
   display: flex;
@@ -21,9 +21,21 @@ body {
   margin: 5px 5px 5px 5px;
   background-image: linear-gradient(
     to bottom,
-    rgba(128, 239, 239, 0.904),
+    rgba(95, 230, 248, 0.904),
     rgba(239, 247, 255, 0.812)
   );
+}
+
+#left{
+  float: left;
+
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.25); /* Set the background color with transparency */
+  backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+  border-radius: 10px; /* Add border radius for a rounded shape */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); /* Add a subtle box shadow */
 }
 
 .nav .navlinks {
@@ -109,7 +121,7 @@ h1 {
 
 p {
   font-size: 1rem;
-  color: #666;
+  color: #f8f5f5;
 }
 
 .video {
@@ -138,9 +150,14 @@ p {
 }
 
 .social-icons {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 5px 5px 5px 5px;
-  margin-top: 25px;
-  font-size: large;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: xx-large;
 }
 
 /* Media queries for tablet and phone screen sizes */
